@@ -1,3 +1,7 @@
+//https://leetcode.com/submissions/detail/674790761/
+//https://leetcode.com/problems/max-consecutive-ones/
+//Runtime: 64 ms, faster than 97.22% of JavaScript online submissions for Max Consecutive Ones.
+//Memory Usage: 44.9 MB, less than 35.94% of JavaScript online submissions for Max Consecutive Ones.
 /**
  * @param {number[]} nums
  * @return {number}
