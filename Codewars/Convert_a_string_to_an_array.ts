@@ -4,6 +4,8 @@
 //"Robin Singh" ==> ["Robin", "Singh"]
 //"I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 
+//Version 1
+
 export function stringToArray(s: string): string[] {
   let newArray = [];
   let lastPosition = 0;
@@ -19,3 +21,17 @@ export function stringToArray(s: string): string[] {
     
   }
   return newArray;
+
+//Version 2
+export function stringToArray(s: string): string[] {
+  let newArray = [];
+ let lastPosition = 0;
+ for(let i = 0; i <= s.length;i++){
+   if(s.charAt(i) === " " || i === s.length){//check the spaces in the string
+     //take the word and push it into to the array
+     newArray.push(s.slice(lastPosition,i))
+     lastPosition = i + 1;
+   }
+ }
+ return newArray;
+}
