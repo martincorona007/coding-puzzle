@@ -2,6 +2,7 @@
 
 //Runtime: 52 ms, faster than 17.35% of Java online submissions for Find the Duplicate Number.
 //Memory Usage: 90.5 MB, less than 14.00% of Java online submissions for Find the Duplicate Number.
+//https://leetcode.com/submissions/detail/807979363/
 class Solution {
     HashSet<Integer> duplicateNumber = new HashSet<Integer>();
     public int findDuplicate(int[] nums) {
@@ -19,6 +20,7 @@ class Solution {
 
 //Runtime: 1065 ms, faster than 5.11% of Java online submissions for Find the Duplicate Number.
 //Memory Usage: 120 MB, less than 5.02% of Java online submissions for Find the Duplicate Number.
+//https://leetcode.com/submissions/detail/807912385/
 class Solution {
     HashMap<Integer,Integer> duplicateNumber = new HashMap<Integer,Integer>();
     public int findDuplicate(int[] nums) {
