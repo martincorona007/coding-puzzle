@@ -9,6 +9,7 @@ My answers to LeetCode, HackerRank, Codewars etc.
 | 3    | Longest Substring Without Repeating Characters                | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/longest_substring_without_repeating_characters.js)        |
 | 13   | Roman To Integer                                              | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/roman_to_integer.js)        |
 | 35   | Search Insert Position                                        | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/Search_Insert_Position.js)        |
+| 70   | Climbing Stairs                                               | [TypeScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/Climbing_Stairs.ts)        |
 | 136  | Single Number                                                 | [Java](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/single_number.java)        |
 | 225  | Implement Stack using Queues                                  | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/implement_stack_using_queues.js)        |
 | 232  | Implement Queue using Stacks                                  | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/Implement_queue_using_stacks.js)        |
@@ -20,7 +21,7 @@ My answers to LeetCode, HackerRank, Codewars etc.
 | 1351 | Count Negative Numbers in a Sorted Matrix                     | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/count_negative_numbers_in_a_sorted_matrix.js)        |
 | 2089 | Find Target Indices After Sorting Array                       | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/find_target_indices_after_sorting_array.js)        |
 | 2455 | Average Value of Even Numbers That Are Divisible by Three     | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/Average_Value_of_Even_Numbers_That_Are_Divisible_by_Three.js)        |
-
+| 2485 | Find the Pivot Integer                                        | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/Find_the_Pivot_Integer.js)        |
 ### HackerRank Problems
 
 ### Codewars Problems
