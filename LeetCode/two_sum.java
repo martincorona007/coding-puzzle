@@ -1,8 +1,25 @@
-#
-#
-#
-#
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int[] index = new int[2];
+        HashMap<Integer,Integer> map =new HashMap<>();
+        for(int i = 0; i < nums.length;i++){
+             if(map.containsKey(nums[i])){
+                index[0] = map.get(nums[i]);
+                index[1] = i;
+                return index;
+            }
+            int numberTwoFind = target - nums[i];
+            map.put(numberTwoFind,i);
+        }
+       // System.out.println(map);
+    return null;
+    }
+}
 
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2]; 
