@@ -34,7 +34,7 @@ console.log(backspaceCompare("bxj##tw","bxo#j##tw"))
 console.log(backspaceCompare("a#c","b"))
 
 //Using DRY principle
-// Time Complexity: O(n)
+// Time Complexity: O(n + m)
 // Space Complexity: O(n)
 //Runtime 99 ms Beats 30.51% Memory 42.2 MB Beats 79.48%
 
