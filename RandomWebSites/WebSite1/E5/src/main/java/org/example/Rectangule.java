@@ -22,11 +22,21 @@ public class Rectangule {
         return width;
     }
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
 
-        Rectangule r = new Rectangule(2.0, 3.0);
-        System.out.println(r.getLength() + " " + r.getWidth());
-        Rectangule r1 = new Rectangule(r.length,r.width);
-        System.out.println(r.getLength() + " " + r.getWidth());
+        for (int i = '0'; i <='9' ; i++) {
+            System.out.println(" "+i+" "+(i-48));
+        }
+//        for (int i = 0; i <= 5; i++) {
+//            for (int j = 0; j <= 5 - i; j++) {
+//                System.out.print("#");
+//            }
+//            System.out.println();
+//        }
+//        System.out.println("Hello, World!");
+//
+//        Rectangule r = new Rectangule(2.0, 3.0);
+//        System.out.println(r.getLength() + " " + r.getWidth());
+//        Rectangule r1 = new Rectangule(r.length,r.width);
+//        System.out.println(r.getLength() + " " + r.getWidth());
     }
 }
