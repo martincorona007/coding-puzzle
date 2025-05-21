@@ -7,18 +7,26 @@ import org.example.E13.Shape;
 import org.example.E14.HRManager;
 import org.example.E15.BankAccount;
 import org.example.E15.SavingsAccount;
+import org.example.E16.Animal;
+import org.example.E16.Cheetah;
 
 public class Main {
     public static void main(String[] args) {
+        //E16 Write a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run
+        Animal animal = new Animal();
+        animal.move();
+
+        Cheetah cheetah = new Cheetah();
+        cheetah.move();
         //E15 Write a Java program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred.
-        BankAccount BAN123 =new BankAccount("BAN123",300);
-
-        BAN123.withdraw(250);
-        System.out.println(""+BAN123.getBalance());
-
-        SavingsAccount BAN1234 =new SavingsAccount("BAN1234",100);
-        BAN1234.withdraw(250);
-        System.out.println(""+BAN1234.getBalance());
+//        BankAccount BAN123 =new BankAccount("BAN123",300);
+//
+//        BAN123.withdraw(250);
+//        System.out.println(""+BAN123.getBalance());
+//
+//        SavingsAccount BAN1234 =new SavingsAccount("BAN1234",100);
+//        BAN1234.withdraw(250);
+//        System.out.println(""+BAN1234.getBalance());
 
         //E14 Write a Java program to create a class called Employee with methods called work() and getSalary(). Create a subclass called HRManager that overrides the work() method and adds a new method called addEmployee().
         //create the employee

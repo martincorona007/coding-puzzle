@@ -2,7 +2,8 @@
 ### WebSite1
 | Folder | Problem                                                     |  Language   | Problem Description   |
 | ---- | ------------------------------------------------------------- | ----------- | ----------- | 
-| E14    |  Inheritance 5 |   | Write a Java program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred. |
+| E16    |  Inheritance 6 |   | Write a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run. |
+| E15    |  Inheritance 5 |   | Write a Java program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred. |
 | E14    |  Inheritance 4 |   | Write a Java program to create a class called Employee with methods called work() and getSalary(). Create a subclass called HRManager that overrides the work() method and adds a new method called addEmployee(). |
 | E13    |  Inheritance 3 |   | Write a Java program to create a class called Shape with a method called getArea(). Create a subclass called Rectangle that overrides the getArea() method to calculate the area of a rectangle. |
 | E12    |  Inheritance 2 |   | Write a Java program to create a class called Vehicle with a method called drive(). Create a subclass called Car that overrides the drive() method to print "Repairing a car". |
