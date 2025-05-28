@@ -9,15 +9,22 @@ import org.example.E15.BankAccount;
 import org.example.E15.SavingsAccount;
 import org.example.E16.Animal;
 import org.example.E16.Cheetah;
+import org.example.E17.Employee;
 
 public class Main {
     public static void main(String[] args) {
-        //E16 Write a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run
-        Animal animal = new Animal();
-        animal.move();
+        //E17 Write a Java program to create a class known as Person with methods called getFirstName() and getLastName(). Create a subclass called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title.
+        Employee employee1 = new Employee("Chris","kyle",42,"SEAL Sniper");
+        System.out.println("> "+employee1.getFirstName()+" "+employee1.getLastName()+" "+employee1.getEmployeeId()+" "+employee1.getEmployeeTitle());
+        Employee employee2 = new Employee("Bravo","one",4232,"SEAL Warrior");
+        System.out.println("> "+employee2.getFirstName()+" "+employee2.getLastName()+" "+employee2.getEmployeeId()+" "+employee2.getEmployeeTitle());
 
-        Cheetah cheetah = new Cheetah();
-        cheetah.move();
+        //E16 Write a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run
+//        Animal animal = new Animal();
+//        animal.move();
+//
+//        Cheetah cheetah = new Cheetah();
+//        cheetah.move();
         //E15 Write a Java program to create a class known as "BankAccount" with methods called deposit() and withdraw(). Create a subclass called SavingsAccount that overrides the withdraw() method to prevent withdrawals if the account balance falls below one hundred.
 //        BankAccount BAN123 =new BankAccount("BAN123",300);
 //
