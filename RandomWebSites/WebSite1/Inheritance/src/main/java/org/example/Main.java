@@ -10,14 +10,27 @@ import org.example.E15.SavingsAccount;
 import org.example.E16.Animal;
 import org.example.E16.Cheetah;
 import org.example.E17.Employee;
+import org.example.E18.Circle;
 
 public class Main {
     public static void main(String[] args) {
+        //E18  Write a Java program to create a class called Shape with methods called getPerimeter() and getArea(). Create a subclass called Circle that overrides the getPerimeter() and getArea() methods to calculate the area and perimeter of a circle.
+        double r = 8.0;
+        Circle c1 = new Circle(r);
+        System.out.println(" "+r);
+        System.out.println(" "+c1.getPerimeter());
+        System.out.println(" "+c1.getArea());
+        r = 3.2;
+        Circle c2 = new Circle(r);
+        System.out.println(" "+r);
+        System.out.println(" "+c2.getPerimeter());
+        System.out.println(" "+c2.getArea());
+
         //E17 Write a Java program to create a class known as Person with methods called getFirstName() and getLastName(). Create a subclass called Employee that adds a new method named getEmployeeId() and overrides the getLastName() method to include the employee's job title.
-        Employee employee1 = new Employee("Chris","kyle",42,"SEAL Sniper");
-        System.out.println("> "+employee1.getFirstName()+" "+employee1.getLastName()+" "+employee1.getEmployeeId()+" "+employee1.getEmployeeTitle());
-        Employee employee2 = new Employee("Bravo","one",4232,"SEAL Warrior");
-        System.out.println("> "+employee2.getFirstName()+" "+employee2.getLastName()+" "+employee2.getEmployeeId()+" "+employee2.getEmployeeTitle());
+//        Employee employee1 = new Employee("Chris","kyle",42,"SEAL Sniper");
+//        System.out.println("> "+employee1.getFirstName()+" "+employee1.getLastName()+" "+employee1.getEmployeeId()+" "+employee1.getEmployeeTitle());
+//        Employee employee2 = new Employee("Bravo","one",4232,"SEAL Warrior");
+//        System.out.println("> "+employee2.getFirstName()+" "+employee2.getLastName()+" "+employee2.getEmployeeId()+" "+employee2.getEmployeeTitle());
 
         //E16 Write a Java program to create a class called Animal with a method named move(). Create a subclass called Cheetah that overrides the move() method to run
 //        Animal animal = new Animal();
