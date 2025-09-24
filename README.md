@@ -1,4 +1,5 @@
 # coding-puzzle
+<a name ="coding-puzzle"></a>
 My answers to LeetCode, HackerRank, Codewars etc.
 
 
@@ -46,7 +47,65 @@ My answers to LeetCode, HackerRank, Codewars etc.
 | HR Weather Observation Station 5                              | [SQL](https://github.com/martincorona007/coding-puzzle/blob/main/HackerRank/Wather_Observation_Station_5.sql)        |
 
 ### Codewars Problems
+<table>
+  <tr>
+    <th>Question</th>
+    <th align="center">Language</th>
+  </tr>
+  <tr>
+    <td>Removing elements</td>
+    <td align="center">Java</td>
+  </tr>
+  <tr>
+    <td>Convert a string to an array</td>
+    <td align="center">Java</td>
+  </tr>
+  <tr>
+    <td>Is the string uppercase?</td>
+    <td align="center">Java</td>
+  </tr>
+    <tr>
+    <td>Disemvowel Trolls</td>
+    <td align="center">Java</td>
+
+  </tr>
+  <tr>
+    <td>My head is at the wrong end</td>
+    <td align="center">Java</td>
+  </tr>
+  <tr>
+    <td>Opposite number</td>
+    <td align="center">Java</td>
+
+  </tr>
+  <tr>
+    <td>Remove first and last character</td>
+    <td align="center">Java</td>
+  </tr>
+    <tr>
+    <td>Rock Paper Scissors</td>
+    <td align="center">Java</td>
+
+  </tr>
+  <tr>
+    <td>String ends with</td>
+    <td align="center">Java</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>Sum Arrays</td>
+    <td align="center">Java</td>
+
+  </tr>
+  <tr>
+    <td>Sum of positive</td>
+    <td align="center">Java</td>
+  </tr>
+</table>
+
+
+
 
 <div align="right">
-    <b><a href="#">back to top</a></b>
+    <b><a href="#coding-puzzle">back to top</a></b>
 </div>
