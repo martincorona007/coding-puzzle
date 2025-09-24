@@ -53,54 +53,55 @@ My answers to LeetCode, HackerRank, Codewars etc.
     <th align="center">Language</th>
   </tr>
   <tr>
+    <td>Sum of positive</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/Sum_of_positive.java">Java</a></td>
+  </tr>
+  <tr>
     <td>Removing elements</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/RemovingElements.java">Java</a></td>
   </tr>
   <tr>
     <td>Convert a string to an array</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/Convert_a_string_to_an_array.ts">Typescript</a></td>
   </tr>
   <tr>
     <td>Is the string uppercase?</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/%20Is_the_string_uppercase.java">Java</a></td>
   </tr>
     <tr>
     <td>Disemvowel Trolls</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/Disemvowel_Trolls.java">Java</a></td>
 
   </tr>
   <tr>
     <td>My head is at the wrong end</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/My_head_is_at_the_wrong_end.java">Java</a></td>
   </tr>
   <tr>
     <td>Opposite number</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/Opposite_number.java">Java</a></td>
 
   </tr>
   <tr>
     <td>Remove first and last character</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/RemoveFirstAndLastCharacter.java">Java</a></td>
   </tr>
     <tr>
     <td>Rock Paper Scissors</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/Rock_Paper_Scissors.ts">Typescript</a></td>
 
   </tr>
   <tr>
     <td>String ends with</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/StringEndsWith.java">Java</a></td>
   </tr>
   </tr>
     <tr>
     <td>Sum Arrays</td>
-    <td align="center">Java</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/Codewars/Sum_Arrays.java">Java</a></td>
 
   </tr>
-  <tr>
-    <td>Sum of positive</td>
-    <td align="center">Java</td>
-  </tr>
+  
 </table>
 
 
