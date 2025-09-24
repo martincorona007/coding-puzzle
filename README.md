@@ -39,12 +39,34 @@ My answers to LeetCode, HackerRank, Codewars etc.
 | 2536 | Increment Submatrices by One                                  | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/LeetCode/Increment_Submatrices_by_One.js)        |
 
 ### HackerRank Problems
+<table>
+  <tr>
+    <th>Questions</th>
+    <th align="center">Language</th>
+  </tr>
+  <tr>
+    <td>Arrays - DS </td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/HackerRank/ArrayDS.js">JavaScript</a></td>
+  </tr>
+  <tr>
+    <td>2D Arrays - DS </td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/HackerRank/2DArrayDS.js">JavaScript</a></td>
+  </tr>
+  <tr>
+    <td>HR Weather Observation Station 5 </td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/HackerRank/Wather_Observation_Station_5.sql">SQL</a></td>
+  </tr>
+  <tr>
+    <td>Java String Reverse</td>
+    <td align="center"><a href="https://github.com/martincorona007/coding-puzzle/blob/main/HackerRank/Java_String_Reverse.java">Java</a></td>
+  </tr>
+    
+  
+</table>
 
-| Questions                                                     |  Language   |
-| ------------------------------------------------------------- | ----------- |
-| Arrays - DS                                                   | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/HackerRank/ArrayDS.js)       |
-| 2D Arrays - DS                                                | [JavaScript](https://github.com/martincorona007/coding-puzzle/blob/main/HackerRank/2DArrayDS.js)        |
-| HR Weather Observation Station 5                              | [SQL](https://github.com/martincorona007/coding-puzzle/blob/main/HackerRank/Wather_Observation_Station_5.sql)        |
+
+
+
 
 ### Codewars Problems
 <table>
