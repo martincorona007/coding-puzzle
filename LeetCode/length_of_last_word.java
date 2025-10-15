@@ -1,4 +1,3 @@
-
 public class length_of_last_word {
 
        public int lengthOfLastWord(String s) {
