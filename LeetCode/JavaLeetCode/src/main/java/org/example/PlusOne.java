@@ -1,6 +1,10 @@
-// Time Complexity: O(n)
+package org.example;
+
+
+public class PlusOne {
+    // Time Complexity: O(n)
 // Space Complexity: O(1)
-class Solution {
+
     public int[] plusOne(int[] digits) {
         int plus = 0;
         if(digits[digits.length - 1] < 9){

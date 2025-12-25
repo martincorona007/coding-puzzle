@@ -1,4 +1,6 @@
-public class length_of_last_word {
+package org.example;
+
+public class LengthOfLastWord {
 
        public int lengthOfLastWord(String s) {
         int count = 0;
@@ -18,7 +20,7 @@ public class length_of_last_word {
         String s1 = "Hello World";
         String s2 = "   fly me   to   the moon  ";
         String s3 = "luffy is still joyboy";
-        length_of_last_word instance = new length_of_last_word();
+        LengthOfLastWord instance = new LengthOfLastWord();
         System.out.println(instance.lengthOfLastWord(s1));
         System.out.println(instance.lengthOfLastWord(s2));
         System.out.println(instance.lengthOfLastWord(s3));

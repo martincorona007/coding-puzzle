@@ -1,8 +1,10 @@
+package org.example;
+
 import java.util.HashSet;
 import java.util.Set;
 //T.C. O(n)
 //S.C. O(n)
-public class containsDuplicate {
+public class ContainsDuplicate {
      public boolean containsDuplicate(int[] nums) {
        Set<Integer> setInstance = new HashSet<>();
 

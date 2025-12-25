@@ -1,6 +1,11 @@
+package org.example;
+
+import java.util.ArrayList;
+import java.util.List;
+
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-class Solution {
+class FizzBuzz {
     public List<String> fizzBuzz(int n) {
         List<String> lista = new ArrayList();
         for(int i = 1; i <= n;i++){

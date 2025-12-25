@@ -1,4 +1,8 @@
-class Solution {
+package org.example;
+
+import java.util.HashMap;
+
+class MajorityElements {
     public int majorityElement(int[] nums) {
         HashMap<Integer,Integer> element = new HashMap<>();
         

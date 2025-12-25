@@ -1,3 +1,5 @@
+package org.example;
+
 // Time complexity:O(n)
 // Space complexity:O(1)
 class MoveZeros {

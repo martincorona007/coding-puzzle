@@ -1,6 +1,9 @@
-// Time Complexity: O(n)
+package org.example;
+
+
+class RemoveElement {
+    // Time Complexity: O(n)
 // Space Complexity: O(1)
-class Solution {
     public int removeElement(int[] nums, int val) {
         int count = 0;
         for (int i = 0; i < nums.length; i++) {

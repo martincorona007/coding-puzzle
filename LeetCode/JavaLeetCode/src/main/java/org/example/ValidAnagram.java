@@ -1,5 +1,10 @@
+package org.example;
+
 import java.util.Collection;
-class Solution {
+import java.util.HashMap;
+import java.util.Iterator;
+
+public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
         HashMap<Character,Integer> box = new HashMap<>();
 

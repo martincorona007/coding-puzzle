@@ -1,5 +1,6 @@
 // Time complexity:O(n*n)
 // Space complexity:O(1)
+package org.example;
 
 import java.util.ArrayList;
 import java.util.HashMap;
