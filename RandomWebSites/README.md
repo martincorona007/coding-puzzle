@@ -22,3 +22,53 @@
 | E1    | Default Constructor                                           |  [Java](https://github.com/martincorona007/coding-puzzle/blob/main/RandomWebSites/WebSite1/E1/Cat.java) |  Write a Java program to create a class called “Cat” with instance variables name and age. Implement a default constructor that initializes the name to "Unknown" and the age to 0. Print the values of the variables.  |
 
 
+Row | Cat    | Muscle   | Muscle Detail    | Workout                                      | Primary          | Secondary
+----|--------|----------|------------------|----------------------------------------------|------------------|------------------
+33  | Upper  | Delts    | Front delt       | [Empty - add overhead press/front raises]    |                  |
+34  | Upper  | Delts    | Side delt        | [Empty - add lateral raises]                 |                  |
+35  | Upper  | Delts    | Rear delt        | [Empty - add face pulls/reverse flys]        |                  |
+36  | Upper  | Chest    | Upper            | Feet-elevated push-ups (head near floor)     | Upper chest      | Front delts, triceps, core
+    |        |          |                  | Incline chest press machine                  | Upper chest      | Front delts, triceps
+37  | Upper  | Chest    | Middle           | Push ups                                     | Middle chest     | Front delts, triceps, core
+    |        |          |                  | Flat chest press machine                     | Middle chest     | Front delts, triceps
+38  | Upper  | Chest    | Lower            | Seated dip machine (leaning forward)         | Lower chest      | Triceps, front delts
+    |        |          |                  | Decline chest press machine                  | Lower chest      | Triceps
+    |        |          |                  | Cable flys (high to low)                     | Lower chest      | Front delts (minimal)
+39  | Upper  | Back     | Upper back       | Barbell rows (overhand, elbows flared)       | Upper back, traps| Biceps, brachialis, lower back
+    |        |          |                  | Seated row cable Arms ~85° Horizontal grip   | Upper back, rear delts | Biceps, brachialis
+40  | Upper  | Back     | Mid back         | Seated row cable Arms ~45° Horizontal grip   | Mid back, rhomboids | Biceps, brachialis, lats
+    |        |          |                  | Barbell rows (pull to belly button)          | Mid back, lats   | Biceps, lower back
+41  | Upper  | Back     | Lats             | Pull-ups                                     | Lats, lower traps| Biceps, brachialis, upper back
+    |        |          |                  | Barbell rows (Underhand)                     | Lats, mid back   | Biceps, brachialis, forearms
+    |        |          |                  | Seated cable rows (close grip, elbows tucked)| Lats, mid back   | Biceps, brachialis
+42  | Upper  | Biceps   | Short head       | Preacher curls (wide grip)                   | Short head       | Brachialis, forearms
+    |        |          |                  | Wide-grip barbell/EZ-bar curls               | Short head       | Brachialis, forearms
+43  | Upper  | Biceps   | Long head        | Incline dumbbell curls (45-60° bench)        | Long head        | Brachialis, forearms
+    |        |          |                  | Cable curls (close grip)                     | Long head        | Brachialis
+    |        |          |                  | EZ-bar curls (standard grip)                 | Long head        | Brachialis
+44  | Upper  | Biceps   | Brachialis       | Rope hammer curls OR Dumbbell hammer curls   | Brachialis       | Biceps, forearms
+    |        |          |                  | Reverse EZ-bar curls                         | Brachialis       | Forearms, biceps
+45  | Upper  | Triceps  | Lateral Head     | Rope pushdown (pull apart)                   | Lateral head     | Medial/long heads
+    |        |          |                  | Straight bar pushdown (palms down)           | Lateral head     | Medial/long heads
+46  | Upper  | Triceps  | Long Head        | Overhead cable extension                     | Long head        | Lateral/medial heads
+    |        |          |                  | Overhead dumbbell extension                  | Long head        | Lateral/medial heads
+47  | Upper  | Triceps  | Medial Head      | Single-arm cable pushdown                    | All three heads  | Forearms
+    |        |          |                  | Reverse-grip pushdown (palms up)             | Medial head      | Lateral/long heads
+    |        |          |                  | Seated dip machine (upright torso)           | All three heads  | Chest (minimal), front delts
+48  | Lower  | Quads    |                  | Barbell squat                                | Quads            | Glutes, hamstrings, lower back, core
+    |        |          |                  | Leg Press Machine (45° or Vertical)          | Quads            | Glutes, hamstrings
+    |        |          |                  | Forward Lunges                               | Quads            | Glutes, hamstrings, core
+    |        |          |                  | Walking Lunges with Dumbbells                | Quads            | Glutes, hamstrings, core
+    |        |          |                  | Leg extension machine                        | Quads only       | None (isolation)
+49  | Lower  | Hamstrings|                 | Seated leg curl machine                      | Hamstrings       | Calves (minimal)
+50  | Lower  | Adductors|                  | Hip adduction machine                        | Adductors        | Glutes (minimal)
+51  | Lower  | Glutes   | Gluteus Maximus  | Barbell squat                                | Quads, Glutes    | Hamstrings
+    |        |          |                  | Leg Press Machine                            | Quads, Glutes    | Hamstrings
+    |        |          |                  | Forward/Walking Lunges                       | Quads, Glutes    | Hamstrings
+    |        |          |                  | Cable glute kickbacks                        | Glutes           | Hamstrings (minimal)
+52  | Lower  | Glutes   | Gluteus Medius   | Hip abduction machine (legs push APART)      | Glutes (side)    | TFL, outer thighs
+    |        |          |                  | Cable kickbacks (45° external rotation)      | Upper/outer glutes| Gluteus maximus
+53  | Lower  | Glutes   | Gluteus Minimus  | Hip abduction machine                        | Glutes (side)    | Gluteus medius
+54  | Lower  | Calfs    | Soleus           | Seated calf machine                          | Soleus           | Gastrocnemius (minimal)
+55  | Lower  | Calfs    | Gastrocnemius    | Leg press calf raises                        | Gastrocnemius    | Soleus (minimal)
+    |        |          |                  | Standing calf raise machine                  | Gastrocnemius    | Soleus (minimal)
