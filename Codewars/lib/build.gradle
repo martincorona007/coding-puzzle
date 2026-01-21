@@ -17,10 +17,11 @@ repositories {
 
 dependencies {
    // Use JUnit 4 test framework
-    testImplementation 'junit:junit:4.13.2'
-
-    // // Use JUnit test framework. -> 5
-    // testImplementation libs.junit
+   // testImplementation 'junit:junit:4.13.2'
+    //Junit 5
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     //api libs.commons.math3
@@ -32,6 +33,9 @@ dependencies {
     implementation 'com.google.guava:guava:32.1.1-jre'
 }
 
+test {
+    useJUnitPlatform()
+}
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
