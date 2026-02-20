@@ -1,0 +1,64 @@
+# ──────────────────────────────
+# macOS
+# ──────────────────────────────
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# ──────────────────────────────
+# Node
+# ──────────────────────────────
+node_modules/
+
+# ──────────────────────────────
+# VSCode
+# ──────────────────────────────
+.vscode/launch.json
+
+# ──────────────────────────────
+# Java
+# ──────────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+*.log
+target/
+
+# ──────────────────────────────
+# IntelliJ IDEA
+# ──────────────────────────────
+.idea/
+*.iml
+*.iws
+out/
+
+# ──────────────────────────────
+# Environment & Secrets
+# ──────────────────────────────
+.env
+*.key
+*.pem
+secrets.properties
+
+# ──────────────────────────────
+# OS General
+# ──────────────────────────────
+Thumbs.db
+Desktop.ini
+
+
+# ──────────────────────────────
+# Misc
+# ──────────────────────────────
+.byebug_history
+mkmf.log
+.rubocop-http---shopify-github-io-ruby-style-guide-rubocop-yml
+generated_fixtures
+.fixtures.generated.json
+Fixture
+TODO
+TODO.md
+./minio
+!.github
