@@ -25,15 +25,15 @@ class FindTheDuplicateNumber {
     //Runtime: 1065 ms, faster than 5.11% of Java online submissions for Find the Duplicate Number.
 //Memory Usage: 120 MB, less than 5.02% of Java online submissions for Find the Duplicate Number.
 //https://leetcode.com/submissions/detail/807912385/
-    HashMap<Integer,Integer> duplicateNumber = new HashMap<Integer,Integer>();
-    public int findDuplicateV2(int[] nums) {
-        for(Integer index: nums){
-            if(duplicateNumber.get(index) == null){
-                duplicateNumber.put(index,0);
-            }else if(duplicateNumber.containsKey(index)){
-                return index;
-            }
-        }
-        return -1;
-    }
+//    HashMap<Integer,Integer> duplicateNumber = new HashMap<Integer,Integer>();
+//    public int findDuplicateV2(int[] nums) {
+//        for(Integer index: nums){
+//            if(duplicateNumber.get(index) == null){
+//                duplicateNumber.put(index,0);
+//            }else if(duplicateNumber.containsKey(index)){
+//                return index;
+//            }
+//        }
+//        return -1;
+//    }
 }
