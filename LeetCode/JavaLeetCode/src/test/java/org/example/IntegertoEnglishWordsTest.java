@@ -1,6 +1,7 @@
 package org.example;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class IntegertoEnglishWordsTest {
     IntegerToEnglishWords integertoEnglishWords = new IntegerToEnglishWords();
 
@@ -12,6 +13,7 @@ public class IntegertoEnglishWordsTest {
         assertEquals("test",expectedResult,actualResult);
 
     }
+
     @Test
     public void test2(){
         String expectedResult = "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven";

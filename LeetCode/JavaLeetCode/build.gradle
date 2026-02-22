@@ -11,12 +11,12 @@ repositories {
 
 dependencies {
     // Use JUnit 4 test framework
-    testImplementation 'junit:junit:4.13.2'
-//    testImplementation platform('org.junit:junit-bom:5.10.0')
-//    testImplementation 'org.junit.jupiter:junit-jupiter'
-//    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+    //testImplementation 'junit:junit:4.13.2'
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
 test {
-//    useJUnitPlatform()
+    useJUnitPlatform()
 }
