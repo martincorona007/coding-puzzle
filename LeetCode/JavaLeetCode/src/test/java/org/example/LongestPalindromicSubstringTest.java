@@ -56,6 +56,7 @@ public class LongestPalindromicSubstringTest {
 
         assertEquals(expectedResult,actualResult);
     }
+    
     @Test
     @Disabled
     public void test8(){

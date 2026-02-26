@@ -20,7 +20,6 @@ public class LongestPalindromicSubstring {
             }
             right++;
         }
-
         return longest;
     }
     public boolean isPalindrome(String s){
